@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+/* start of header */
+.header-container {
+    padding-top: 20px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    flex: 0 1 50%;
+}
+a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+.hero-container {
+    max-height: 20rem;
+    padding-bottom: 5rem;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+
+
+}
+.hero-text{
+    padding-left: 10rem;
+    width: 500px;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+
+}
+.hero-secondary {
+    padding-left: 10rem;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.sign-up {
+    padding-left: 10rem;
+    padding-top: 10px;
+    display: flex;
+}
+button {
+    width: 80px;
+    height: 30px;
+    color: #f9faf8;
+    border-radius: 6px;
+    background-color:#3882f6;
+}
+.img {
+    width: 400px;
+    height: 200px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap; 
+}
+/* end of header */
+.information-container {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.image-container {
+    padding-top: 50px;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+img {
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+}
+.quote-container{
+    padding: 100px;
+    padding-left: 350px;
+    padding-right: 350px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex;
+    flex-direction: column;
+}
+.quote{
+    color: #1f2937;
+    font: 36px;
+
+    display: flex;
+}
+.quote-sig{
+    padding-left: 600px;
+    display: flex;
+}
+.cta-container{
+    margin: 100px;
+    padding: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: #3882f6;
+    color: #F9FaF8;
+    display: flex;
+    justify-content: space-around;
+}
+.cta-button{
+    display:flex;
+    align-items: center;
+}
+.footer-container{
+    background-color: #1f2937;
+    color: #F9FaF8;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
